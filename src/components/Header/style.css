@@ -1,0 +1,44 @@
+.nav {
+  padding: 1.25rem 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+.nav::after {
+  content: "";
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 100%;
+  border: 0.5px solid #c2d2eb;
+}
+.btn {
+  padding: 0.75rem 1.25rem;
+  margin: 0 0.5rem;
+  font-size: 14px;
+  border-radius: 8px;
+}
+.btn a {
+  text-decoration: none;
+}
+
+.btnLogin {
+  border: 0.5px solid #0052cc;
+  background-color: #0052cc;
+}
+.btnLogin a {
+  color: white;
+}
+.btnRegis {
+  border: 0.5px solid #0052cc;
+  background-color: #f2f7ff;
+  box-shadow: 3px 3px #0052cc;
+}
+.btnRegis a {
+  color: #0052cc;
+}
+.btnB {
+  padding: 1.5rem 3rem;
+  font-weight: 800;
+}

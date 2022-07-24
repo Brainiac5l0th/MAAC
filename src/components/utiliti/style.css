@@ -1,0 +1,92 @@
+.headings {
+  text-align: center;
+}
+.headings p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0052cc;
+}
+.headings h1 {
+  margin: 1.25rem 0;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+/* Layout css */
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+}
+
+.formlayout {
+  border-radius: 32px;
+  background: #fff;
+  max-width: 1024px;
+  margin: 7rem 0;
+}
+.upperForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 13rem;
+}
+.upperForm h3 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.upperForm p {
+  font-size: 24px;
+}
+.formGroup {
+  margin: 3rem 0;
+}
+
+.textInput,
+.textInput option {
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-bottom: 2px solid #eee;
+  width: 608px;
+  max-width: 608px;
+  padding-bottom: 1.5rem;
+  outline: none;
+  margin: 1.25rem 0;
+}
+.textInput option {
+  background: #fff;
+}
+input[type="checkbox" i] {
+  height: 20px;
+  width: 20px;
+}
+label {
+  font-size: 20px;
+}
+label a,
+p a {
+  text-decoration: none;
+  color: #0052cc;
+}
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #0052cc;
+}
+
+.button {
+  width: 608px;
+  max-width: 608px;
+  padding: 1.5rem 0;
+  margin: 3rem 0;
+  border-radius: 8px;
+  background: #0052cc;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}

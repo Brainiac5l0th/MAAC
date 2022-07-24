@@ -1,0 +1,45 @@
+.footer {
+  background-color: #00193d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.divMaxWid {
+  text-align: center;
+  margin: 5.5rem 28.875rem;
+  max-width: 516px;
+  max-height: 216px;
+}
+/* .divMaxWid::after {
+  content: "";
+  position: absolute;
+  top: 80;
+  right: 0;
+  width: 100%;
+  border: 0.5px solid #c2d2eb;
+} */
+.hrCss {
+  width: 80vw;
+}
+.footer p {
+  text-align: center;
+  color: #ffffff;
+  margin: 2rem 0;
+  font-size: 16px;
+}
+
+.footer .logoGroup a {
+  margin: 0 1.25rem;
+}
+
+.rightReserve {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.maacName a {
+  text-decoration: none;
+  color: #f60e0e;
+}
